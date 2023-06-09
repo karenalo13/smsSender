@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "SRtTkuQYpmBJb+1c755yDewItXI0W7wOVUyCEWj8+iqn3mLzI9f6EWX8PDTCHGQCZZW1i5RffSzP4QM2akx3jQ==",
+  "success": true,
+  "projectFilePath": "D:\\sms sender\\App1\\App1\\App1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AMD\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\AMD\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\AMD\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\AMD\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\AMD\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

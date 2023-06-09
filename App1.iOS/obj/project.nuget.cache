@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8ksBWsrJVp+qkvMPfTJ/8RMVeELleQio9NBIZhaD4hVgYbXWs0QYcza6wjFo+iytOJrnn4j+ugTN98QC6ocVOA==",
+  "success": true,
+  "projectFilePath": "D:\\sms sender\\App1\\App1.iOS\\App1.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AMD\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\AMD\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\AMD\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
