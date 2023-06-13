@@ -8,6 +8,11 @@ using Xamarin.Forms;
 using Xamarin.Essentials;
 using Android.Telephony;
 using Android;
+using System.Net.Http;
+using Java.Util;
+using Org.Apache.Http.Protocol;
+using Newtonsoft.Json;
+using System.Net;
 
 namespace App1
 {
@@ -24,7 +29,8 @@ namespace App1
             {
                 EntryNumber.Text
             };
-            await SendSms(EntrySms.Text, numbers);
+            //await SendSms(EntrySms.Text, numbers);
+            await CallAPI();
         }
 
 
@@ -33,11 +39,7 @@ namespace App1
         {
             try
             {
-               // var requiredPermissions = new String[] { Manifest.Permission.SendSms };
-
                 var number = numbers.First();
-                //var message = new SmsMessage(messageText, numbers);
-                //await Sms.ComposeAsync(message);
                 SmsManager smsManager = SmsManager.Default;
                 smsManager.SendTextMessage(number, null, messageText, null, null);
             }
@@ -48,6 +50,36 @@ namespace App1
             catch (Exception ex)
             {
 
+            }
+        }
+
+        private async Task CallAPI()
+        {
+
+            try
+            {
+                string uri = "http://192.168.100.19:5000/messages";
+
+                HttpClient httpClient = new HttpClient();
+
+                HttpResponseMessage response = await httpClient.GetAsync(uri);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    // The request was successful. Retrieve the response content.
+                    string responseBody = await response.Content.ReadAsStringAsync();
+                    // Process or display the response as needed.
+                    var listOfObjects = JsonConvert.DeserializeObject<List<Inserted>>(responseBody);
+                    Console.WriteLine(responseBody);
+                }
+                else
+                {
+                    // The request was not successful. Handle the error.
+                    Console.WriteLine("Error: " + response.StatusCode);
+                }
+            }
+            catch (Exception ex)
+            {
             }
         }
     }

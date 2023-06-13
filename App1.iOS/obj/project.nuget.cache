@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/ikCbap7vjZK4n/GHRJK3//ydtuBBvceBJTCZDGskPJrXuANtNV/BP3HvYmtf8MXF5vHPiV0jyOISFWr6gZIpQ==",
+  "dgSpecHash": "Mi8j8QTWLnPE6a6dZyb8ZrhWRev6jbwkqGpuungrgLPezFMmk8e3LeDU7yOJJF3pXVk0MplPVNddxp2Eqn4kSQ==",
   "success": true,
   "projectFilePath": "D:\\sms sender\\lucian\\smsSender\\App1.iOS\\App1.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Andrei\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Andrei\\.nuget\\packages\\system.net.http\\4.3.4\\system.net.http.4.3.4.nupkg.sha512",
     "C:\\Users\\Andrei\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Andrei\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512",
     "C:\\Users\\Andrei\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
